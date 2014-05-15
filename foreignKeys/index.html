@@ -1,0 +1,262 @@
+<HTML>
+<Header>
+<Title>WaMDaM0.2 Foreign Keys</Title>
+<meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
+<Link href="../css/doc.css" rel="stylesheet" type="text/css">
+</Header>
+<Body>
+<table class="logo">
+<tr>
+<td class="logo">WaMDaM0.2</td>
+</tr>
+</table>
+<table class="horzMenu">
+<tr>
+<td class="horzMenu"><a class="horzMenu" href="../index.html"> Home</a></td><td class="horzMenu">|</td><td class="horzMenu"><a class="horzMenu" href="../tables/index.html">Tables</a></td><td class="horzMenu">|</td><td class="horzMenu"><a class="horzMenu" href="../schemas/index.html">Schemas</a></td><td class="horzMenu">|</td><td class="horzMenu"><a class="horzMenu" href="../diagrams/index.html">Diagrams</a></td><td class="horzMenu">|</td><td class="horzMenu"><a class="horzMenu" href="../foreignKeys/index.html">Foreign Keys</a></td><td class="horzMenu">|</td><td class="horzMenu"><a class="horzMenu" href="../indexes/index.html">Indexes</a></td><td class="horzMenuFiller"></td>
+</tr>
+</table>
+<hr>
+<table class="flat">
+<tr>
+<td class="banner" colspan="5">Foreign Keys</td>
+</tr>
+<tr>
+<td class="Header">Name</td><td class="Header">Parent Table</td><td class="Header">Child Table</td><td class="Header">Parent Columns</td><td class="Header">Child Columns</td>
+</tr>
+<tr>
+<td><a href="../foreignKeys/WaMDaM0_2_Affiliations_fk_Affiliations_Organization.html">fk_Affiliations_Organization</a></td><td><a href="../tables/WaMDaM0_2_Organization.html">Organization</a></td><td><a href="../tables/WaMDaM0_2_Affiliations.html">Affiliations</a></td><td>OrganizationID</td><td>OrganizationID</td>
+</tr>
+<tr class="altRow">
+<td><a href="../foreignKeys/WaMDaM0_2_Affiliations_fk_Affiliations_Peopel.html">fk_Affiliations_Peopel</a></td><td><a href="../tables/WaMDaM0_2_People.html">People</a></td><td><a href="../tables/WaMDaM0_2_Affiliations.html">Affiliations</a></td><td>PersonID</td><td>PersonID</td>
+</tr>
+<tr>
+<td><a href="../foreignKeys/WaMDaM0_2_AffiliationSources_fk_AffiliationSources_Affiliations.html">fk_AffiliationSources_Affiliations</a></td><td><a href="../tables/WaMDaM0_2_Affiliations.html">Affiliations</a></td><td><a href="../tables/WaMDaM0_2_AffiliationSources.html">AffiliationSources</a></td><td>AffiliationID</td><td>AffiliationID</td>
+</tr>
+<tr class="altRow">
+<td><a href="../foreignKeys/WaMDaM0_2_AffiliationSources_fk_AffiliationSources_Sources.html">fk_AffiliationSources_Sources</a></td><td><a href="../tables/WaMDaM0_2_Sources.html">Sources</a></td><td><a href="../tables/WaMDaM0_2_AffiliationSources.html">AffiliationSources</a></td><td>SourceID</td><td>SourceID</td>
+</tr>
+<tr>
+<td><a href="../foreignKeys/WaMDaM0_2_AttributeMetadata_fk_AttributeData_AttributeFormatCV.html">fk_AttributeData_AttributeFormatCV</a></td><td><a href="../tables/WaMDaM0_2_AttributeFormatCV.html">AttributeFormatCV</a></td><td><a href="../tables/WaMDaM0_2_AttributeMetadata.html">AttributeMetadata</a></td><td>AttributeFormat</td><td>AttributeFormatCV</td>
+</tr>
+<tr class="altRow">
+<td><a href="../foreignKeys/WaMDaM0_2_AttributeMetadata_fk_AttributeData_Attributes.html">fk_AttributeData_Attributes</a></td><td><a href="../tables/WaMDaM0_2_Attributes.html">Attributes</a></td><td><a href="../tables/WaMDaM0_2_AttributeMetadata.html">AttributeMetadata</a></td><td>AttributeID</td><td>AttributesID</td>
+</tr>
+<tr>
+<td><a href="../foreignKeys/WaMDaM0_2_AttributeMetadata_fk_AttributeData_DataTypeCV.html">fk_AttributeData_DataTypeCV</a></td><td><a href="../tables/WaMDaM0_2_DataTypeCV.html">DataTypeCV</a></td><td><a href="../tables/WaMDaM0_2_AttributeMetadata.html">AttributeMetadata</a></td><td>DataType</td><td>DataTypeCV</td>
+</tr>
+<tr class="altRow">
+<td><a href="../foreignKeys/WaMDaM0_2_AttributeMetadata_fk_AttributeData_Methods.html">fk_AttributeData_Methods</a></td><td><a href="../tables/WaMDaM0_2_Methods.html">Methods</a></td><td><a href="../tables/WaMDaM0_2_AttributeMetadata.html">AttributeMetadata</a></td><td>MethodID</td><td>MethodID</td>
+</tr>
+<tr>
+<td><a href="../foreignKeys/WaMDaM0_2_AttributeMetadata_fk_AttributeData_Units.html">fk_AttributeData_Units</a></td><td><a href="../tables/WaMDaM0_2_Units.html">Units</a></td><td><a href="../tables/WaMDaM0_2_AttributeMetadata.html">AttributeMetadata</a></td><td>UnitID</td><td>UnitID</td>
+</tr>
+<tr class="altRow">
+<td><a href="../foreignKeys/WaMDaM0_2_Attributes_fk_Attributes_AttributeNameCV.html">fk_Attributes_AttributeNameCV</a></td><td><a href="../tables/WaMDaM0_2_AttributeNameCV.html">AttributeNameCV</a></td><td><a href="../tables/WaMDaM0_2_Attributes.html">Attributes</a></td><td>AttributeName</td><td>AttributeNameCV</td>
+</tr>
+<tr>
+<td><a href="../foreignKeys/WaMDaM0_2_BinaryDataData_fk_BinaryDataData_AttributeDataValues.html">fk_BinaryDataData_AttributeDataValues</a></td><td><a href="../tables/WaMDaM0_2_AttributeDataValues.html">AttributeDataValues</a></td><td><a href="../tables/WaMDaM0_2_BinaryDataData.html">BinaryDataData</a></td><td>AttributeDataValueID</td><td>AttributeDataValueID</td>
+</tr>
+<tr class="altRow">
+<td><a href="../foreignKeys/WaMDaM0_2_ColumnsData_fk_ColumnsData_AttributeDataValues.html">fk_ColumnsData_AttributeDataValues</a></td><td><a href="../tables/WaMDaM0_2_AttributeDataValues.html">AttributeDataValues</a></td><td><a href="../tables/WaMDaM0_2_ColumnsData.html">ColumnsData</a></td><td>AttributeDataValueID</td><td>AttributeDataValueID</td>
+</tr>
+<tr>
+<td><a href="../foreignKeys/WaMDaM0_2_FileBasedData_fk_FileBasedData_AttributeDataValues.html">fk_FileBasedData_AttributeDataValues</a></td><td><a href="../tables/WaMDaM0_2_AttributeDataValues.html">AttributeDataValues</a></td><td><a href="../tables/WaMDaM0_2_FileBasedData.html">FileBasedData</a></td><td>AttributeDataValueID</td><td>AttributeDataValueID</td>
+</tr>
+<tr class="altRow">
+<td><a href="../foreignKeys/WaMDaM0_2_LinkAttributeCategory_fk_LinkAttributeCategory_LinkAttributeCategory.html">fk_LinkAttributeCategory_LinkAttributeCategory</a></td><td><a href="../tables/WaMDaM0_2_LinkAttributeCategory.html">LinkAttributeCategory</a></td><td><a href="../tables/WaMDaM0_2_LinkAttributeCategory.html">LinkAttributeCategory</a></td><td>LinkCategotyID</td><td>ParentLinkAttributeCategoryID</td>
+</tr>
+<tr>
+<td><a href="../foreignKeys/WaMDaM0_2_LinkAttributeCategory_fk_LinkAttributeCategory_LinkAttributeCategoryCV.html">fk_LinkAttributeCategory_LinkAttributeCategoryCV</a></td><td><a href="../tables/WaMDaM0_2_LinkAttributeCategoryCV.html">LinkAttributeCategoryCV</a></td><td><a href="../tables/WaMDaM0_2_LinkAttributeCategory.html">LinkAttributeCategory</a></td><td>LinkAttributeCategoty</td><td>LinkAttributeCategotyCV</td>
+</tr>
+<tr class="altRow">
+<td><a href="../foreignKeys/WaMDaM0_2_LinkInstances_fk_LinkInstances_LinkObjects.html">fk_LinkInstances_LinkObjects</a></td><td><a href="../tables/WaMDaM0_2_LinkObjects.html">LinkObjects</a></td><td><a href="../tables/WaMDaM0_2_LinkInstances.html">LinkInstances</a></td><td>LinkObjectID</td><td>LinkObjectID</td>
+</tr>
+<tr>
+<td><a href="../foreignKeys/WaMDaM0_2_LinkInstances_fk_LinkInstances_Networks.html">fk_LinkInstances_Networks</a></td><td><a href="../tables/WaMDaM0_2_Networks.html">Networks</a></td><td><a href="../tables/WaMDaM0_2_LinkInstances.html">LinkInstances</a></td><td>NetworkID</td><td>NetworkID</td>
+</tr>
+<tr class="altRow">
+<td><a href="../foreignKeys/WaMDaM0_2_LinkInstances_fk_LinkInstances_NodeInstances.html">fk_LinkInstances_NodeInstances</a></td><td><a href="../tables/WaMDaM0_2_NodeInstances.html">NodeInstances</a></td><td><a href="../tables/WaMDaM0_2_LinkInstances.html">LinkInstances</a></td><td>NodeInstanceID, NodeInstanceID</td><td>StartNodeInstanceID, EndNodeInstanceID</td>
+</tr>
+<tr>
+<td><a href="../foreignKeys/WaMDaM0_2_LinkObjectAttributes_fk_LinkObjectAttributes_Attributes.html">fk_LinkObjectAttributes_Attributes</a></td><td><a href="../tables/WaMDaM0_2_Attributes.html">Attributes</a></td><td><a href="../tables/WaMDaM0_2_LinkObjectAttributes.html">LinkObjectAttributes</a></td><td>AttributeID</td><td>AttributesID</td>
+</tr>
+<tr class="altRow">
+<td><a href="../foreignKeys/WaMDaM0_2_LinkObjectAttributes_fk_LinkObjectAttributes_LinkAttributeCategory.html">fk_LinkObjectAttributes_LinkAttributeCategory</a></td><td><a href="../tables/WaMDaM0_2_LinkAttributeCategory.html">LinkAttributeCategory</a></td><td><a href="../tables/WaMDaM0_2_LinkObjectAttributes.html">LinkObjectAttributes</a></td><td>LinkCategotyID</td><td>LinkCategotyID</td>
+</tr>
+<tr>
+<td><a href="../foreignKeys/WaMDaM0_2_LinkObjectAttributes_fk_LinkObjectAttributes_LinkObjects.html">fk_LinkObjectAttributes_LinkObjects</a></td><td><a href="../tables/WaMDaM0_2_LinkObjects.html">LinkObjects</a></td><td><a href="../tables/WaMDaM0_2_LinkObjectAttributes.html">LinkObjectAttributes</a></td><td>LinkObjectID</td><td>LinkObjectID</td>
+</tr>
+<tr class="altRow">
+<td><a href="../foreignKeys/WaMDaM0_2_LinkObjectCategory_fk_LinkObjectCategory_LinkObjectCategory.html">fk_LinkObjectCategory_LinkObjectCategory</a></td><td><a href="../tables/WaMDaM0_2_LinkObjectCategory.html">LinkObjectCategory</a></td><td><a href="../tables/WaMDaM0_2_LinkObjectCategory.html">LinkObjectCategory</a></td><td>LinkObjectCategoryID</td><td>ParentLinkObjectCategoryID</td>
+</tr>
+<tr>
+<td><a href="../foreignKeys/WaMDaM0_2_LinkObjectCategory_fk_LinkObjectCategory_LinkObjectCategoryCV.html">fk_LinkObjectCategory_LinkObjectCategoryCV</a></td><td><a href="../tables/WaMDaM0_2_LinkObjectCategoryCV.html">LinkObjectCategoryCV</a></td><td><a href="../tables/WaMDaM0_2_LinkObjectCategory.html">LinkObjectCategory</a></td><td>LinkObjectCategory</td><td>LinkObjectCategoryCV</td>
+</tr>
+<tr class="altRow">
+<td><a href="../foreignKeys/WaMDaM0_2_LinkObjects_fk_LinkObjects_LinkObjectCategory.html">fk_LinkObjects_LinkObjectCategory</a></td><td><a href="../tables/WaMDaM0_2_LinkObjectCategory.html">LinkObjectCategory</a></td><td><a href="../tables/WaMDaM0_2_LinkObjects.html">LinkObjects</a></td><td>LinkObjectCategoryID</td><td>LinkObjectCategoryID</td>
+</tr>
+<tr>
+<td><a href="../foreignKeys/WaMDaM0_2_LinkObjects_fk_LinkObjects_LinkObjectNameCV.html">fk_LinkObjects_LinkObjectNameCV</a></td><td><a href="../tables/WaMDaM0_2_LinkObjectNameCV.html">LinkObjectNameCV</a></td><td><a href="../tables/WaMDaM0_2_LinkObjects.html">LinkObjects</a></td><td>LinkObjectName</td><td>LinkObjectNameCV</td>
+</tr>
+<tr class="altRow">
+<td><a href="../foreignKeys/WaMDaM0_2_LinkObjects_fk_NodeObjects_Projects.html">fk_NodeObjects_Projects</a></td><td><a href="../tables/WaMDaM0_2_Projects.html">Projects</a></td><td><a href="../tables/WaMDaM0_2_LinkObjects.html">LinkObjects</a></td><td>ProjectID</td><td>ProjectID</td>
+</tr>
+<tr>
+<td><a href="../foreignKeys/WaMDaM0_2_Methods_fk_Methods_MethodTypeCV.html">fk_Methods_MethodTypeCV</a></td><td><a href="../tables/WaMDaM0_2_MethodTypeCV.html">MethodTypeCV</a></td><td><a href="../tables/WaMDaM0_2_Methods.html">Methods</a></td><td>MethodType</td><td>MethodTypeCV</td>
+</tr>
+<tr class="altRow">
+<td><a href="../foreignKeys/WaMDaM0_2_Methods_fk_Methods_Organization.html">fk_Methods_Organization</a></td><td><a href="../tables/WaMDaM0_2_Organization.html">Organization</a></td><td><a href="../tables/WaMDaM0_2_Methods.html">Methods</a></td><td>OrganizationID</td><td>OrganizationID</td>
+</tr>
+<tr>
+<td><a href="../foreignKeys/WaMDaM0_2_Methods_fk_Methods_People.html">fk_Methods_People</a></td><td><a href="../tables/WaMDaM0_2_People.html">People</a></td><td><a href="../tables/WaMDaM0_2_Methods.html">Methods</a></td><td>PersonID</td><td>PersonID</td>
+</tr>
+<tr class="altRow">
+<td><a href="../foreignKeys/WaMDaM0_2_MultiColumns_fk_MultiColumns_AttributeDataValues.html">fk_MultiColumns_AttributeDataValues</a></td><td><a href="../tables/WaMDaM0_2_AttributeDataValues.html">AttributeDataValues</a></td><td><a href="../tables/WaMDaM0_2_MultiColumns.html">MultiColumns</a></td><td>AttributeDataValueID</td><td>AttributeDataValueID</td>
+</tr>
+<tr>
+<td><a href="../foreignKeys/WaMDaM0_2_MultiColumns_fk_MultiColumns_Columns.html">fk_MultiColumns_Columns</a></td><td><a href="../tables/WaMDaM0_2_ColumnsData.html">ColumnsData</a></td><td><a href="../tables/WaMDaM0_2_MultiColumns.html">MultiColumns</a></td><td>ColumnID</td><td>ColumnID</td>
+</tr>
+<tr class="altRow">
+<td><a href="../foreignKeys/WaMDaM0_2_MultiColumnValues_fk_MultiColumnValues_MultiColumns.html">fk_MultiColumnValues_MultiColumns</a></td><td><a href="../tables/WaMDaM0_2_MultiColumns.html">MultiColumns</a></td><td><a href="../tables/WaMDaM0_2_MultiColumnValues.html">MultiColumnValues</a></td><td>MultiColumnID</td><td>MultiColumnID</td>
+</tr>
+<tr>
+<td><a href="../foreignKeys/WaMDaM0_2_Networks_fk_Networks_Networks.html">fk_Networks_Networks</a></td><td><a href="../tables/WaMDaM0_2_Networks.html">Networks</a></td><td><a href="../tables/WaMDaM0_2_Networks.html">Networks</a></td><td>NetworkID</td><td>ParentNetworkID</td>
+</tr>
+<tr class="altRow">
+<td><a href="../foreignKeys/WaMDaM0_2_Networks_fk_Networks_Projects.html">fk_Networks_Projects</a></td><td><a href="../tables/WaMDaM0_2_Projects.html">Projects</a></td><td><a href="../tables/WaMDaM0_2_Networks.html">Networks</a></td><td>ProjectID</td><td>ProjectID</td>
+</tr>
+<tr>
+<td><a href="../foreignKeys/WaMDaM0_2_NodeAttributeCategory_fk_NodeAttributeCategory_NodeAttributeCategory.html">fk_NodeAttributeCategory_NodeAttributeCategory</a></td><td><a href="../tables/WaMDaM0_2_NodeAttributeCategory.html">NodeAttributeCategory</a></td><td><a href="../tables/WaMDaM0_2_NodeAttributeCategory.html">NodeAttributeCategory</a></td><td>NodeAttributeCategotyID</td><td>ParentNodeAttributeCategoryID</td>
+</tr>
+<tr class="altRow">
+<td><a href="../foreignKeys/WaMDaM0_2_NodeAttributeCategory_fk_NodeAttributeCategory_NodeAttributeCategoryCV.html">fk_NodeAttributeCategory_NodeAttributeCategoryCV</a></td><td><a href="../tables/WaMDaM0_2_NodeAttributeCategoryCV.html">NodeAttributeCategoryCV</a></td><td><a href="../tables/WaMDaM0_2_NodeAttributeCategory.html">NodeAttributeCategory</a></td><td>NodeAttributeCategoty</td><td>NodeAttributeCategotyCV</td>
+</tr>
+<tr>
+<td><a href="../foreignKeys/WaMDaM0_2_NodeInstances_fk_NodeInstances_Networks.html">fk_NodeInstances_Networks</a></td><td><a href="../tables/WaMDaM0_2_Networks.html">Networks</a></td><td><a href="../tables/WaMDaM0_2_NodeInstances.html">NodeInstances</a></td><td>NetworkID</td><td>NetworkID</td>
+</tr>
+<tr class="altRow">
+<td><a href="../foreignKeys/WaMDaM0_2_NodeInstances_fk_NodeInstances_NodeObjects.html">fk_NodeInstances_NodeObjects</a></td><td><a href="../tables/WaMDaM0_2_NodeObjects.html">NodeObjects</a></td><td><a href="../tables/WaMDaM0_2_NodeInstances.html">NodeInstances</a></td><td>NodeObjectID</td><td>NodeObjectID</td>
+</tr>
+<tr>
+<td><a href="../foreignKeys/WaMDaM0_2_NodeInstances_fk_NodeInstances_SpatialReference.html">fk_NodeInstances_SpatialReference</a></td><td><a href="../tables/WaMDaM0_2_SpatialReference.html">SpatialReference</a></td><td><a href="../tables/WaMDaM0_2_NodeInstances.html">NodeInstances</a></td><td>SpatialReferenceID</td><td>SpatialReferenceID</td>
+</tr>
+<tr class="altRow">
+<td><a href="../foreignKeys/WaMDaM0_2_NodeObjectAttributes_fk_NodeObjectAttributes_Attributes.html">fk_NodeObjectAttributes_Attributes</a></td><td><a href="../tables/WaMDaM0_2_Attributes.html">Attributes</a></td><td><a href="../tables/WaMDaM0_2_NodeObjectAttributes.html">NodeObjectAttributes</a></td><td>AttributeID</td><td>AttributeID</td>
+</tr>
+<tr>
+<td><a href="../foreignKeys/WaMDaM0_2_NodeObjectAttributes_fk_NodeObjectAttributes_NodeAttributeCategory.html">fk_NodeObjectAttributes_NodeAttributeCategory</a></td><td><a href="../tables/WaMDaM0_2_NodeAttributeCategory.html">NodeAttributeCategory</a></td><td><a href="../tables/WaMDaM0_2_NodeObjectAttributes.html">NodeObjectAttributes</a></td><td>NodeAttributeCategotyID</td><td>CategotyID</td>
+</tr>
+<tr class="altRow">
+<td><a href="../foreignKeys/WaMDaM0_2_NodeObjectAttributes_fk_NodeObjectAttributes_NodeObjects.html">fk_NodeObjectAttributes_NodeObjects</a></td><td><a href="../tables/WaMDaM0_2_NodeObjects.html">NodeObjects</a></td><td><a href="../tables/WaMDaM0_2_NodeObjectAttributes.html">NodeObjectAttributes</a></td><td>NodeObjectID</td><td>NodeObjectID</td>
+</tr>
+<tr>
+<td><a href="../foreignKeys/WaMDaM0_2_NodeObjectCategory_fk_NodeObjectCategory_NodeObjectCategory.html">fk_NodeObjectCategory_NodeObjectCategory</a></td><td><a href="../tables/WaMDaM0_2_NodeObjectCategory.html">NodeObjectCategory</a></td><td><a href="../tables/WaMDaM0_2_NodeObjectCategory.html">NodeObjectCategory</a></td><td>NodeObjectCategoryID</td><td>ParentNodeObjectCategoryID</td>
+</tr>
+<tr class="altRow">
+<td><a href="../foreignKeys/WaMDaM0_2_NodeObjectCategory_fk_NodeObjectCategory_NodeObjectCategoryCV.html">fk_NodeObjectCategory_NodeObjectCategoryCV</a></td><td><a href="../tables/WaMDaM0_2_NodeObjectCategoryCV.html">NodeObjectCategoryCV</a></td><td><a href="../tables/WaMDaM0_2_NodeObjectCategory.html">NodeObjectCategory</a></td><td>NodeObjectCategory</td><td>NodeObjectCategoryCV</td>
+</tr>
+<tr>
+<td><a href="../foreignKeys/WaMDaM0_2_NodeObjects_fk_NodeObjects_NodeObjectCategory.html">fk_NodeObjects_NodeObjectCategory</a></td><td><a href="../tables/WaMDaM0_2_NodeObjectCategory.html">NodeObjectCategory</a></td><td><a href="../tables/WaMDaM0_2_NodeObjects.html">NodeObjects</a></td><td>NodeObjectCategoryID</td><td>NodeObjectCategoryID</td>
+</tr>
+<tr class="altRow">
+<td><a href="../foreignKeys/WaMDaM0_2_NodeObjects_fk_NodeObjects_NodeObjectNameCV.html">fk_NodeObjects_NodeObjectNameCV</a></td><td><a href="../tables/WaMDaM0_2_NodeObjectNameCV.html">NodeObjectNameCV</a></td><td><a href="../tables/WaMDaM0_2_NodeObjects.html">NodeObjects</a></td><td>NodeObjectName</td><td>NodeObjectNameCV</td>
+</tr>
+<tr>
+<td><a href="../foreignKeys/WaMDaM0_2_NodeObjects_fk_NodeObjects_Projects.html">fk_NodeObjects_Projects</a></td><td><a href="../tables/WaMDaM0_2_Projects.html">Projects</a></td><td><a href="../tables/WaMDaM0_2_NodeObjects.html">NodeObjects</a></td><td>ProjectID</td><td>ProjectID</td>
+</tr>
+<tr class="altRow">
+<td><a href="../foreignKeys/WaMDaM0_2_Organization_fk_Organization_Organization.html">fk_Organization_Organization</a></td><td><a href="../tables/WaMDaM0_2_Organization.html">Organization</a></td><td><a href="../tables/WaMDaM0_2_Organization.html">Organization</a></td><td>OrganizationID</td><td>ParentOrganizationID</td>
+</tr>
+<tr>
+<td><a href="../foreignKeys/WaMDaM0_2_Organization_fk_Organization_OrganizationType.html">fk_Organization_OrganizationType</a></td><td><a href="../tables/WaMDaM0_2_OrganizationType.html">OrganizationType</a></td><td><a href="../tables/WaMDaM0_2_Organization.html">Organization</a></td><td>OrganizationTypeCV</td><td>OrganizationTypeCV</td>
+</tr>
+<tr class="altRow">
+<td><a href="../foreignKeys/WaMDaM0_2_ParameterData_fk_ParameterData_AttributeDataValues.html">fk_ParameterData_AttributeDataValues</a></td><td><a href="../tables/WaMDaM0_2_AttributeDataValues.html">AttributeDataValues</a></td><td><a href="../tables/WaMDaM0_2_ParameterData.html">ParameterData</a></td><td>AttributeDataValueID</td><td>AttributeDataValueID</td>
+</tr>
+<tr>
+<td><a href="../foreignKeys/WaMDaM0_2_PoliticalJurisdictionalNodeInstace_fk_PoliticalJurisdictionalNodeInstace_NodeInstances.html">fk_PoliticalJurisdictionalNodeInstace_NodeInstances</a></td><td><a href="../tables/WaMDaM0_2_NodeInstances.html">NodeInstances</a></td><td><a href="../tables/WaMDaM0_2_PoliticalJurisdictionalNodeInstace.html">PoliticalJurisdictionalNodeInstace</a></td><td>NodeInstanceID</td><td>NodeInstanceID</td>
+</tr>
+<tr class="altRow">
+<td><a href="../foreignKeys/WaMDaM0_2_PoliticalJurisdictionalNodeInstace_fk_PoliticalJurisdictionalNodeInstace_PoliticalJurisdictions.html">fk_PoliticalJurisdictionalNodeInstace_PoliticalJurisdictions</a></td><td><a href="../tables/WaMDaM0_2_PoliticalJurisdictions.html">PoliticalJurisdictions</a></td><td><a href="../tables/WaMDaM0_2_PoliticalJurisdictionalNodeInstace.html">PoliticalJurisdictionalNodeInstace</a></td><td>PoliticalJurisdictionID</td><td>PoliticalJurisdictionID</td>
+</tr>
+<tr>
+<td><a href="../foreignKeys/WaMDaM0_2_Projects_fk_Projects_Users.html">fk_Projects_Users</a></td><td><a href="../tables/WaMDaM0_2_Users.html">Users</a></td><td><a href="../tables/WaMDaM0_2_Projects.html">Projects</a></td><td>UserID</td><td>UserID</td>
+</tr>
+<tr class="altRow">
+<td><a href="../foreignKeys/WaMDaM0_2_Samples_fk_Samples_SampleMediumCV.html">fk_Samples_SampleMediumCV</a></td><td><a href="../tables/WaMDaM0_2_SampleMediumCV.html">SampleMediumCV</a></td><td><a href="../tables/WaMDaM0_2_Samples.html">Samples</a></td><td>SampleMedium</td><td>SampleMediumCV</td>
+</tr>
+<tr>
+<td><a href="../foreignKeys/WaMDaM0_2_Samples_fk_Samples_SampleType.html">fk_Samples_SampleType</a></td><td><a href="../tables/WaMDaM0_2_SampleType.html">SampleType</a></td><td><a href="../tables/WaMDaM0_2_Samples.html">Samples</a></td><td>SampleType</td><td>SampleTypeCV</td>
+</tr>
+<tr class="altRow">
+<td><a href="../foreignKeys/WaMDaM0_2_ScenarioLinkInstanceAttributeData_fk_ScenarioData_Scenarios.html">fk_ScenarioData_Scenarios</a></td><td><a href="../tables/WaMDaM0_2_Scenarios.html">Scenarios</a></td><td><a href="../tables/WaMDaM0_2_ScenarioLinkInstanceAttributeData.html">ScenarioLinkInstanceAttributeData</a></td><td>ScenarioID</td><td>ScenarioID</td>
+</tr>
+<tr>
+<td><a href="../foreignKeys/WaMDaM0_2_ScenarioLinkInstanceAttributeData_fk_ScenarioLinkInstanceAttributeData_AttributeData.html">fk_ScenarioLinkInstanceAttributeData_AttributeData</a></td><td><a href="../tables/WaMDaM0_2_AttributeMetadata.html">AttributeMetadata</a></td><td><a href="../tables/WaMDaM0_2_ScenarioLinkInstanceAttributeData.html">ScenarioLinkInstanceAttributeData</a></td><td>AttributeMetaDataID</td><td>AttributeMetaDataID</td>
+</tr>
+<tr class="altRow">
+<td><a href="../foreignKeys/WaMDaM0_2_ScenarioLinkInstanceAttributeData_fk_ScenarioLinkInstanceAttributeData_AttributeDataValues.html">fk_ScenarioLinkInstanceAttributeData_AttributeDataValues</a></td><td><a href="../tables/WaMDaM0_2_AttributeDataValues.html">AttributeDataValues</a></td><td><a href="../tables/WaMDaM0_2_ScenarioLinkInstanceAttributeData.html">ScenarioLinkInstanceAttributeData</a></td><td>AttributeDataValueID</td><td>AttributeDataValueID</td>
+</tr>
+<tr>
+<td><a href="../foreignKeys/WaMDaM0_2_ScenarioLinkInstanceAttributeData_fk_ScenarioLinkInstanceAttributeData_LinkInstances.html">fk_ScenarioLinkInstanceAttributeData_LinkInstances</a></td><td><a href="../tables/WaMDaM0_2_LinkInstances.html">LinkInstances</a></td><td><a href="../tables/WaMDaM0_2_ScenarioLinkInstanceAttributeData.html">ScenarioLinkInstanceAttributeData</a></td><td>LinkInstanceID</td><td>LinkInstanceID</td>
+</tr>
+<tr class="altRow">
+<td><a href="../foreignKeys/WaMDaM0_2_ScenarioNodeInstanceAttributeData_fk_ScenarioData_Scenarios.html">fk_ScenarioData_Scenarios</a></td><td><a href="../tables/WaMDaM0_2_Scenarios.html">Scenarios</a></td><td><a href="../tables/WaMDaM0_2_ScenarioNodeInstanceAttributeData.html">ScenarioNodeInstanceAttributeData</a></td><td>ScenarioID</td><td>ScenarioID</td>
+</tr>
+<tr>
+<td><a href="../foreignKeys/WaMDaM0_2_ScenarioNodeInstanceAttributeData_fk_ScenarioNodeInstanceAttributeData_AttributeData.html">fk_ScenarioNodeInstanceAttributeData_AttributeData</a></td><td><a href="../tables/WaMDaM0_2_AttributeMetadata.html">AttributeMetadata</a></td><td><a href="../tables/WaMDaM0_2_ScenarioNodeInstanceAttributeData.html">ScenarioNodeInstanceAttributeData</a></td><td>AttributeMetaDataID</td><td>AttributeMetaDataID</td>
+</tr>
+<tr class="altRow">
+<td><a href="../foreignKeys/WaMDaM0_2_ScenarioNodeInstanceAttributeData_fk_ScenarioNodeInstanceAttributeData_AttributeDataValues.html">fk_ScenarioNodeInstanceAttributeData_AttributeDataValues</a></td><td><a href="../tables/WaMDaM0_2_AttributeDataValues.html">AttributeDataValues</a></td><td><a href="../tables/WaMDaM0_2_ScenarioNodeInstanceAttributeData.html">ScenarioNodeInstanceAttributeData</a></td><td>AttributeDataValueID</td><td>AttributeDataValueID</td>
+</tr>
+<tr>
+<td><a href="../foreignKeys/WaMDaM0_2_ScenarioNodeInstanceAttributeData_fk_ScenarioNodeInstanceAttributeData_NodeInstances.html">fk_ScenarioNodeInstanceAttributeData_NodeInstances</a></td><td><a href="../tables/WaMDaM0_2_NodeInstances.html">NodeInstances</a></td><td><a href="../tables/WaMDaM0_2_ScenarioNodeInstanceAttributeData.html">ScenarioNodeInstanceAttributeData</a></td><td>NodeInstanceID</td><td>NodeInstanceID</td>
+</tr>
+<tr class="altRow">
+<td><a href="../foreignKeys/WaMDaM0_2_Scenarios_fk_Scenarios_Networks.html">fk_Scenarios_Networks</a></td><td><a href="../tables/WaMDaM0_2_Networks.html">Networks</a></td><td><a href="../tables/WaMDaM0_2_Scenarios.html">Scenarios</a></td><td>NetworkID</td><td>NetworkID</td>
+</tr>
+<tr>
+<td><a href="../foreignKeys/WaMDaM0_2_SeasonalParameterData_fk_SeasonalParameterData_AttributeDataValues.html">fk_SeasonalParameterData_AttributeDataValues</a></td><td><a href="../tables/WaMDaM0_2_AttributeDataValues.html">AttributeDataValues</a></td><td><a href="../tables/WaMDaM0_2_SeasonalParameterData.html">SeasonalParameterData</a></td><td>AttributeDataValueID</td><td>AttributeDataValueID</td>
+</tr>
+<tr class="altRow">
+<td><a href="../foreignKeys/WaMDaM0_2_SourceData_fk_SourceData_AttributeData.html">fk_SourceData_AttributeData</a></td><td><a href="../tables/WaMDaM0_2_AttributeMetadata.html">AttributeMetadata</a></td><td><a href="../tables/WaMDaM0_2_SourceData.html">SourceData</a></td><td>AttributeMetaDataID</td><td>AttributeMetaDataID</td>
+</tr>
+<tr>
+<td><a href="../foreignKeys/WaMDaM0_2_SourceData_fk_SourceData_Sources.html">fk_SourceData_Sources</a></td><td><a href="../tables/WaMDaM0_2_Sources.html">Sources</a></td><td><a href="../tables/WaMDaM0_2_SourceData.html">SourceData</a></td><td>SourceID</td><td>SourceID</td>
+</tr>
+<tr class="altRow">
+<td><a href="../foreignKeys/WaMDaM0_2_Sources_fk_Sources_Models.html">fk_Sources_Models</a></td><td><a href="../tables/WaMDaM0_2_Models.html">Models</a></td><td><a href="../tables/WaMDaM0_2_Sources.html">Sources</a></td><td>ModelID</td><td>ModelID</td>
+</tr>
+<tr>
+<td><a href="../foreignKeys/WaMDaM0_2_Sources_fk_Sources_Organization.html">fk_Sources_Organization</a></td><td><a href="../tables/WaMDaM0_2_Organization.html">Organization</a></td><td><a href="../tables/WaMDaM0_2_Sources.html">Sources</a></td><td>OrganizationID</td><td>OrganizationID</td>
+</tr>
+<tr class="altRow">
+<td><a href="../foreignKeys/WaMDaM0_2_Sources_fk_Sources_Samples.html">fk_Sources_Samples</a></td><td><a href="../tables/WaMDaM0_2_Samples.html">Samples</a></td><td><a href="../tables/WaMDaM0_2_Sources.html">Sources</a></td><td>SampleID</td><td>SampleID</td>
+</tr>
+<tr>
+<td><a href="../foreignKeys/WaMDaM0_2_TextDescriptorControlledData_fk_TextDescriptorControlled_TextValueControlledCV.html">fk_TextDescriptorControlled_TextValueControlledCV</a></td><td><a href="../tables/WaMDaM0_2_TextValueControlledCV.html">TextValueControlledCV</a></td><td><a href="../tables/WaMDaM0_2_TextDescriptorControlledData.html">TextDescriptorControlledData</a></td><td>TextValueControlled</td><td>TextValueControlled</td>
+</tr>
+<tr class="altRow">
+<td><a href="../foreignKeys/WaMDaM0_2_TextDescriptorControlledData_fk_TextDescriptorControlledData_AttributeDataValues.html">fk_TextDescriptorControlledData_AttributeDataValues</a></td><td><a href="../tables/WaMDaM0_2_AttributeDataValues.html">AttributeDataValues</a></td><td><a href="../tables/WaMDaM0_2_TextDescriptorControlledData.html">TextDescriptorControlledData</a></td><td>AttributeDataValueID</td><td>AttributeDataValueID</td>
+</tr>
+<tr>
+<td><a href="../foreignKeys/WaMDaM0_2_TextDescriptorFreeData_fk_TextDescriptorFreeData_AttributeDataValues.html">fk_TextDescriptorFreeData_AttributeDataValues</a></td><td><a href="../tables/WaMDaM0_2_AttributeDataValues.html">AttributeDataValues</a></td><td><a href="../tables/WaMDaM0_2_TextDescriptorFreeData.html">TextDescriptorFreeData</a></td><td>AttributeDataValueID</td><td>AttributeDataValueID</td>
+</tr>
+<tr class="altRow">
+<td><a href="../foreignKeys/WaMDaM0_2_TimeSeries_fk_TimeSeries_AttributeDataValues.html">fk_TimeSeries_AttributeDataValues</a></td><td><a href="../tables/WaMDaM0_2_AttributeDataValues.html">AttributeDataValues</a></td><td><a href="../tables/WaMDaM0_2_TimeSeries.html">TimeSeries</a></td><td>AttributeDataValueID</td><td>AttributeDataValueID</td>
+</tr>
+<tr>
+<td><a href="../foreignKeys/WaMDaM0_2_TimeSeries_fk_TimeSeries_CensorCodeCV.html">fk_TimeSeries_CensorCodeCV</a></td><td><a href="../tables/WaMDaM0_2_CensorCodeCV.html">CensorCodeCV</a></td><td><a href="../tables/WaMDaM0_2_TimeSeries.html">TimeSeries</a></td><td>CensorCode</td><td>CensorCode</td>
+</tr>
+<tr class="altRow">
+<td><a href="../foreignKeys/WaMDaM0_2_TimeSeries_fk_TimeSeries_TimeSeriesMetadata.html">fk_TimeSeries_TimeSeriesMetadata</a></td><td><a href="../tables/WaMDaM0_2_TimeSeriesMetadata.html">TimeSeriesMetadata</a></td><td><a href="../tables/WaMDaM0_2_TimeSeries.html">TimeSeries</a></td><td>TimeSereisMetadataID</td><td>TimeSereisMetadataID</td>
+</tr>
+<tr>
+<td><a href="../foreignKeys/WaMDaM0_2_TimeSeriesMetadata_fk_TimeSeriesMetadata_Units.html">fk_TimeSeriesMetadata_Units</a></td><td><a href="../tables/WaMDaM0_2_Units.html">Units</a></td><td><a href="../tables/WaMDaM0_2_TimeSeriesMetadata.html">TimeSeriesMetadata</a></td><td>UnitID</td><td>TimeUnitID</td>
+</tr>
+<tr class="altRow">
+<td><a href="../foreignKeys/WaMDaM0_2_Users_fk_Users_People.html">fk_Users_People</a></td><td><a href="../tables/WaMDaM0_2_People.html">People</a></td><td><a href="../tables/WaMDaM0_2_Users.html">Users</a></td><td>PersonID</td><td>PersonID</td>
+</tr>
+</table>
+</Body>
+</HTML>
