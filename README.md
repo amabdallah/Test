@@ -5,3 +5,5 @@ Water Management Data Model (WaM-DaM) is proposed organize, describe, and manipu
 
 Check out WaM-DaM documentation here 
 https://github.com/amabdallah/WaMDaM/wiki
+
+This is a summer workkshop
