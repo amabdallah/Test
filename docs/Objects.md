@@ -4,7 +4,7 @@ The Objects table is a container that describes general metadata for nodes and l
 #### Node Objects ####
 Node objects represnet a generic abstract of a node like reservoir. A node instance inherits all the properties of a node object.   
 
-** Node Objects Category**
+**Node Objects Category**
 Node objects that are similar and belong to a large group of objects can be organized in categories under a hierarchical order. For example, urban water management objects like culvert, wastewater treatment plant, and manhole can be organized in one category called wastewater. In the meanwhile, culverts and manholes can belong to the wastewater treatment plant object as of their parent   
 
 #### Link Objects ####
