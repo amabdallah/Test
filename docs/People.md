@@ -1,9 +1,8 @@
 Credit: This file is copied as it is from the ODM2 GitHub account at 
 https://github.com/UCHIC/ODM2/blob/master/doc/ODM2Docs/core_people.md
-
 Few changes are made to adjust to WaM-DaM needs 
 
-People are included in ODM2 so that observations and other types of Actions can be affiliated with the individual People that perform them. People are represented by thier first, middle, and last names. People are linked to Organizations using the Affiliations entity. People can be affiliated with one or more Organizations, but a person does not have to be affiliated with an Organization to perform an Action. However, all Actions must be performed by at least one person. The following describe how a Person is affiliated with an Action:
+People are included in WaM-DaM so that Projects and data collected can be affiliated with the individual People that perform them. People are represented by thier first, middle, and last names. People are linked to Organizations using the Affiliations entity. People can be affiliated with one or more Organizations, but a person does not have to be affiliated with an Organization to perform an Action. However, all Actions must be performed by at least one person. The following describe how a Person is affiliated with an Action:
 
 ### In the Case that a Person is a Member of an Organization ###
 
@@ -13,7 +12,6 @@ The Affiliation is associated with an Action via the ActionBy entity. Multiple A
 
 
 ### In the Case that a Person is not a Member of an Organization ###
-
 
 A person is created in the People entity.
 An Affiliation is created in the Affiliations entity. The Person's contact information is entered, but no Organization is linked.
@@ -26,4 +24,5 @@ Each Person affiliated with an Action can play a role, as specified by the RoleD
 * **Participant** - specifies that the person was a participant
 * **Analyst** - specifies that the person was the analyst that operated the instrument associated with the Action
 * **Sample collector** - specifies that the person was the one that collected a sample
+* **Interviewed** - specifies that the person intreviewed is the source of data  
 * Etc.
