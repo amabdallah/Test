@@ -10,7 +10,10 @@ People are included in ODM2 so that observations and other types of Actions can 
 A person is created in the People entity.
 An Affiliation is created in the Affiliations entity that associates the Person with the Organization. The Affiliation includes a beginning and ending date, and the Person's contact information at the Organization is also included with the Affiliation. A Person can also be designated as an Organization's primary contact in the Affiliations entity.
 The Affiliation is associated with an Action via the ActionBy entity. Multiple Affiliations (People/Organization combinations) can be associated with an Action, but at least one Affiliation is required.
-In the Case that a Person is not a Member of an Organization
+
+
+### In the Case that a Person is not a Member of an Organization ###
+
 
 A person is created in the People entity.
 An Affiliation is created in the Affiliations entity. The Person's contact information is entered, but no Organization is linked.
