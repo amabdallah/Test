@@ -1,1 +1,36 @@
 The Objects table is a container that describes general metadata for nodes and links (e.g., reservoir and canal). Each object can be associated with one or more attributes. For example, a reservoir can have attributes like capacity, dam height, and inflow. The use of node and link object names is controlled by a set of vocabularies like “Reservoir” and “Canal”. Finally, the Attributes table defines one or more parameters or variables like elevation and storage for an Object.  
+
+
+#### Node Objects ####
+
+
+#### Node Objects Category ####
+
+
+#### Link Objects ####
+
+
+
+#### Link Objects Category ####
+
+
+
+#### Attributes ####
+
+
+#### Node Object Attributes ####
+
+
+
+#### Link Object Attributes ####
+
+
+#### Node Attribute Category ####
+
+
+#### Node Attribute Category ####
+
+
+#### Link Attribute Category ####
+
+
