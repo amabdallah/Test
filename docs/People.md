@@ -22,8 +22,8 @@ Roles and Action Leadership
 
 Each Person affiliated with an Action can play a role, as specified by the RoleDescription in the ActionBy entity. Additionally, a single person can be designated as the leader of a particular Action in the ActionBy entity. Roles specify the part that a Person plays in performing an Action. It is not required to specify a role for a person that participates in an Action. The description of a role is created by the user and is not subject to a controlled vocabulary. Examples of roles that might be useful in implementing ODM2 instances include:
 
-Observer - specifies that the person is the one that made the observation
-Participant - specifies that the person was a participant
-Analyst - specifies that the person was the analyst that operated the instrument associated with the Action
-Sample collector - specifies that the person was the one that collected a sample
-Etc.
+* **Observer** - specifies that the person is the one that made the observation
+* **Participant** - specifies that the person was a participant
+* **Analyst** - specifies that the person was the analyst that operated the instrument associated with the Action
+* **Sample collector** - specifies that the person was the one that collected a sample
+* Etc.
