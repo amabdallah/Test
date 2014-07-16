@@ -5,7 +5,7 @@ Few changes are made to adjust to WaM-DaM needs
 
 People are included in ODM2 so that observations and other types of Actions can be affiliated with the individual People that perform them. People are represented by thier first, middle, and last names. People are linked to Organizations using the Affiliations entity. People can be affiliated with one or more Organizations, but a person does not have to be affiliated with an Organization to perform an Action. However, all Actions must be performed by at least one person. The following describe how a Person is affiliated with an Action:
 
-In the Case that a Person is a Member of an Organization
+### In the Case that a Person is a Member of an Organization ###
 
 A person is created in the People entity.
 An Affiliation is created in the Affiliations entity that associates the Person with the Organization. The Affiliation includes a beginning and ending date, and the Person's contact information at the Organization is also included with the Affiliation. A Person can also be designated as an Organization's primary contact in the Affiliations entity.
