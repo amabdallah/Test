@@ -1,7 +1,7 @@
-New Features of WaM-DaM 
+Key Features of WaM-DaM 
 =======================
 
-The following are new features of WaM-DaM that are not supported in the Observation Data Model (ODM) or other existing data models:
+The following are the key features of WaM-DaM that are not supported in the Observation Data Model (ODM) or other existing data models:
 
 1. **Define the connectivity between objects like sites through links**
 For example, WaM-DaM allows you to organize data that comprise a network of nodes and links 
