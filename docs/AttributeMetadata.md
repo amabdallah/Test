@@ -9,7 +9,7 @@ There are three types of water management data that we need to capture in WaM-Da
 
 ***Data sources***
 There are different sources (types) that a piece of data can originate from in WaM-DaM:
-1. Observations data (e.g., flowrate and water elevation in a reservoir) 
-2. Factual data (e.g., dam ownder, reservoir maximum capacity, and reservour purpose)
-3. Opinion or experiance data (e.g., reservoir release rules and prefered water depth in a wetland unit)
-4. Simulation model results (e.g., recommended water releases from a reservoir based on a simulation model)
+1. Observations data (e.g., flowrate and water elevation in a reservoir). 
+2. Factual data (e.g., dam ownder, reservoir maximum capacity, and reservour purpose).
+3. Opinion or experiance data (e.g., reservoir release rules and prefered water depth in a wetland unit).
+4. Simulation model results (e.g., recommended water releases from a reservoir based on a simulation model).
