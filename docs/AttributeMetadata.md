@@ -7,7 +7,7 @@ AttributeMetadata in WaM-DaM contain the instances of objects that exist in the 
 
 There are three types of water management data that we need to capture in WaM-DaM: i) observations of water supply and demand quantity and quality, economic, and ecological data ii) connectivity (topology) between supply and demand elements, and iii) factual or descriptive information about system components like dam owner and release rules. 
 
-****Data sources****
+***Data sources***
 There are different sources that a piece of data can originate from in WaM-DaM:
 1. Observational data (e.g., flowrate and water elevation in a reservoir) 
 2. Factual data (e.g., dam ownder and reservoir capacity)
