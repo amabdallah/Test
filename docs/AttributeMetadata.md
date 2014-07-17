@@ -13,3 +13,5 @@ There are different sources (types) that a piece of data can originate from in W
 2. Factual data (e.g., dam ownder, reservoir maximum capacity, and reservour purpose).
 3. Opinion or experiance data (e.g., reservoir release rules and prefered water depth in a wetland unit).
 4. Simulation model results (e.g., recommended water releases from a reservoir based on a simulation model).
+
+All of these sources come from people affiliated with organizations 
