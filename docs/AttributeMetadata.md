@@ -17,10 +17,10 @@ There are different sources (types) that a piece of data can originate from in W
 All of these sources come from people affiliated with organizations 
 
 
-**Important**
+**Attribute with Multiple values**
 
 Once attribute might have multiple values that come from different sources. For example, maximum reservoir capacity might be reported by three entities like the US Army Corps of Engineers dataset and the State or County databases. Each of these source might use a different method. Besides, an attribute value might come from the simulation/optimization model that recommends expanding the reservoir capacity to a certain limit to handle future climate change drought scenarions. 
 
 
-**Important**
-An attribute can be measured using a method by an organization like the US Army Corps of Engineers. However, the source for that data value might come from a different organization like Utah State University 
+**Method and Source**
+An attribute like a reservoir watershed area can be measured using a method described and specified by an organization like the US Army Corps of Engineers. However, the source for that data value might come from a different organization like Utah State University. So Utah State University estimated a reservoir watershed area based on the method by the US Army Corps of Engineers.  
