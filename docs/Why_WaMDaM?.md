@@ -1,7 +1,7 @@
 Key Features of WaM-DaM 
 =======================
 
-The following are the key features of WaM-DaM that are not supported in the Observation Data Model (ODM) or other existing data models:
+The following are the key features of WaM-DaM that contributes to the exisitng state of the art data models:
 
 1. **Define the connectivity between objects like sites through links**
 For example, WaM-DaM allows you to organize data that comprise a network of nodes and links 
@@ -11,6 +11,9 @@ WaM-DaM adopts the principles of representing time series data as in the Observa
 
 3. **Overcome semantic heterogeneity in water management data**
 WaM-DaM uses controlled vocabularies to enforce the homogeneity of object (nodes and links) names throughout the network
+
+4. **Allows direct conditional data queries **
+WaM-DaM is a relational data model that allows users to access samll pieces of data with sophisticated conditions. 
 
 
 
