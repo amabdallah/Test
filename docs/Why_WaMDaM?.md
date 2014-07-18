@@ -12,7 +12,7 @@ WaM-DaM adopts the principles of representing time series data as in the Observa
 3. **Overcome semantic heterogeneity in water management data**
 WaM-DaM uses controlled vocabularies to enforce the homogeneity of object (nodes and links) names throughout the network
 
-4. **Allows direct conditional data queries **
+4. **Allows direct conditional data queries**
 WaM-DaM is a relational data model that allows users to access samll pieces of data with sophisticated conditions. 
 
 
