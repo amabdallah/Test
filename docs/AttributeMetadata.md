@@ -17,10 +17,16 @@ There are different sources (types) that a piece of data can originate from in W
 All of these sources come from people affiliated with organizations 
 
 
-**Attribute with Multiple values**
+**Attribute with Multiple values from Sources, methods, and models**
 
-Once attribute might have multiple values that come from different sources. For example, maximum reservoir capacity might be reported by three entities like the US Army Corps of Engineers dataset and the State or County databases. Each of these source might use a different method. Besides, an attribute value might come from the simulation/optimization model that recommends expanding the reservoir capacity to a certain limit to handle future climate change drought scenarions. 
+Once attribute might have multiple values that come from different sources and various methods. For example, maximum reservoir capacity might be reported by three entities like the US Army Corps of Engineers dataset and the State or County databases. Each of these source might use a different method. Besides, an attribute value might come from the simulation/optimization model that recommends expanding the reservoir capacity to a certain limit to handle future climate change drought scenarions.  
 
 
 **Method and Source**
-An attribute like a reservoir watershed area can be measured using a method described and specified by an organization like the US Army Corps of Engineers. However, the source for that data value might come from a different organization like Utah State University. So Utah State University estimated a reservoir watershed area based on the method by the US Army Corps of Engineers.  
+An attribute like a reservoir watershed area can be measured using a method described and specified by an organization like the US Army Corps of Engineers. However, the source for that data value might come from a different organization like Utah State University. So Utah State University estimated a reservoir watershed area based on the method by the US Army Corps of Engineers. A source reports what or where and the methods reports how!
+
+**Samples, Methods, and Sources**
+A data value could be collected using a sample accoroding to a method by a source who collects the sample
+
+**Method, Source and models**
+Data values in WaM-DaM can come from model simulation results, in this case the user enters exta metadata about the used model. The source of data can be reported through the sources table. The method will be picked in the methods table.   
