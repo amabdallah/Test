@@ -17,5 +17,7 @@ WaM-DaM is a relational data model that allows users to access samll pieces of d
 
 
 
+###How Does WaM-DaM differ in storing time series data than the Observation Data Model 1.0 (ODM)?###
+
 
 
