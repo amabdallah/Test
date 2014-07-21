@@ -2,14 +2,14 @@ Data Values
 ============
 
 ***WaM-DaM supports these multiple data formats:*** <p>
-1. TimeSereis 
-2. MultiColums
-3. Parameters 
-4. Binary
-5. File based 
-6. Text controlled 
-7. Text Free 
-8. Equations (to be added soon)
+1. TimeSereis <p>
+2. MultiColums<p>
+3. Parameters <p>
+4. Binary<p>
+5. File based<p> 
+6. Text controlled<p> 
+7. Text Free <p>
+8. Equations (to be added soon)<p>
 
 
 
