@@ -5,8 +5,8 @@ Blue tables in Figure 1 contain the instances of objects that exist in the proje
 
 ***Connectivity rules:***<p>
 These rules maintain the intergrety of the network connectivity <p>
-1. a Node can exist or stand by itself <p>
-2. a link must reference both a start and end node and cannot stand by itself <p>
+1. a Node can exist or stand by itself. A node can theoritically connect with zero to an infiniate number of links <p>
+2. a link must reference both a start and end node and cannot stand by itself. A link is meaningful by defining the connectivity of two nods and the direction of the connection (start and end nodes) <p>
 3. a node cannot connect with itself or with another node without a link <p>
 4. a link cannot connect with itself or with other links without a node <p>
 5. Some link objects cannot connect between particular node objects due to connectivity limitation in the real world. For example, a river link object cannont connect between a pump station and household node objects. This buiness rule cannot be enforced in the WaM-DaM data model and it could be enforeces in the database physical implemetation as triggers. <p>
