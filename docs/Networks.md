@@ -9,7 +9,7 @@ An instance is a specific implementation of an object defined in the project met
 * Networks can belong to other networks in a hierarchical order. The recursive relation in the network table organizes this order. For example, the Little Bear River network is part of or belongs to the Lower Bear River. Also ther Lower Bear River network is part of or belongs to the Bear River Network.
 
 
-***Scenarios*** <p>
+***Scenarios*** 
 A Scenario tracks the changes in the network, connectivity and the data and metadata from a state to another one like existing case to climate change case. Also, adding the scenario as another attribute to the AttributeMatadata allows to reference multiple scenarios to attributes and thier data values. Thus, we dont need to duplicate the similar data among scenarios.
 
 
