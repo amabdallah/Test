@@ -12,5 +12,7 @@ These rules maintain the intergrety of the network connectivity <p>
 5. Some link objects cannot connect between particular node objects due to connectivity limitation in the real world. For example, a river link object cannont connect between a pump station and household node objects. This buiness rule cannot be enforced in the WaM-DaM data model and it could be enforeces in the database physical implemetation as triggers. <p>
 6. Some link objects (pipe) cannot have a direction through start and end nodes that flow to an illogical way. For example, a Wastewater pipe link object cannot have a dirction that flows from the manhole up to the houses. Or the same piple direction cannot be flowing from a manhole to a drinking water pump station. This buiness rule cannot be enforced in the WaM-DaM data model and it could be enforced at the database level through triggers. 
 
+***Review ArcGIS connectivity matrix*** Very Important  
+
 
 ![NodeLinkConnectDemo](https://github.com/amabdallah/WaMDaM/blob/master/Figures/NodeLinkConnectDemo.jpg)
