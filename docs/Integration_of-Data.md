@@ -7,7 +7,7 @@ Table 1 below lists the unique attributes that each dataset has and doesn’t ex
 
 Table 1: Unique attributes from different data sources 
 
-#	Unique attributes /data	Source
+	Unique attributes /data	Source
 1	Dam Hazard, main and sub basins	Global Dams
 2	hydrologic unit code	National Atlas of Lakes 
 3	Maximum Discharge (spill way), Spillway Type, Spillway Width, Outlet Gates, 	US National Inventory of dams 
@@ -36,5 +36,5 @@ ICOLD Dams Dataset	Purpose(s) of reservoir (coded purposes ordered in priority)
 
 6.	Manage network data, connectivity, and its metadata for two regional watersheds: Parleys Canyon and Lower Bear River networks.
 
- 
+ ![Image](https://github.com/amabdallah/WaMDaM/blob/master/Figures/adel10.png)
 Figure 1: Global, US National, and regional data sources to WaM-DaM
