@@ -1,5 +1,13 @@
 The Objects table is a container that describes general metadata for nodes and links (e.g., reservoir and canal). Each object can be associated with one or more attributes. For example, a reservoir can have attributes like capacity, dam height, and inflow. The use of node and link object names is controlled by a set of vocabularies like “Reservoir” and “Canal”. Finally, the Attributes table defines one or more parameters or variables like elevation and storage for an Object.  
 
+**Why Objcects**
+
+Objects in WaM-DaM serve as a library of water management objects with their common and shared attributes. 
+
+There could be another way to capture the obect name within the Instances table by adding an attribute called "object name" to the "instance" table. Thus the user could query the instances that have an object name like Reservoir. In this case the user has to define an object name for each instance they create which might make it cumbersome. The use of Objects table allows the user to define generic attributes to an object "Reservoir" like Description, color, and shape that wil be inhirted to all the instances that share such an object.  
+
+Also, by defining an object with its attributes then all the instances of that spesific object will inhert those attibutes and therefore the instance will be similar and homogenous.
+
 
 #### Node Objects ####
 Node objects represnet a generic abstract of a node like reservoir. A node instance inherits all the properties of a node object.   
