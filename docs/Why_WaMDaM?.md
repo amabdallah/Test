@@ -1,4 +1,4 @@
-###Key Features of WaM-DaM###
+###Key Features and Core Concepts of WaM-DaM###
 
 
 The following are the key features of WaM-DaM that contributes to the exisitng state of the art data models:
