@@ -6,7 +6,7 @@ Objects in WaM-DaM serve as a library of water management objects with their com
 
 There could be another way to capture the obect name within the Instances table by adding an attribute called "object name" to the "instance" table. Thus the user could query the instances that have an object name like Reservoir. In this case the user has to define an object name for each instance they create which might make it cumbersome. The use of Objects table allows the user to define generic attributes to an object "Reservoir" like Description, color, and shape that wil be inhirted to all the instances that share such an object.  
 
-Also, by defining an object with its attributes then all the instances of that spesific object will inhert those attibutes and therefore the instance will be similar and homogenous.
+Also, by defining an object with its attributes then all the instances of that spesific object will inhert those attibutes and therefore the instance will be similar and homogenous. In ODM1, everysite could be different than another site by having different set of variables that are measured at each site. However, WaM-DaM wants to enforce homognity among "sites" that are similar and share a set of common attributes. For example, an abject called reservoir shares a set of attributes that are common among all reservoirs (e.g., capacity, elevation, and purpose). The enforcement of homoginiety saves the user time by defining an object once and then creating "copies" instance of it.
 
 
 #### Node Objects ####
