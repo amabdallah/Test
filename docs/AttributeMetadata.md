@@ -7,7 +7,7 @@ The AttributeMetadata table in WaM-DaM maps out the metadata of sources, units, 
 This table allows the user to define an attribute with its metadata and then reuse it for all the instances that share this attribute and its metadata. For example, the US. Army Corps of Engineers database for Dams has over 70,000 dams that have 15 attributes. Once an attribute is defined like the dam drainage area with its metadata, then the user could use this attribute for the 70,000 dams, only and only if all these dams have simmilar metadata like the unit, the souurce and method. If a group of dams use different unit to report the dam drainage area, then the user either converts their unit to match the other group's unit or the user has to define a new AttributeMetadata instance that has similar metadata to the prevuios instance but it has a different unit.  
 
 
-### Levels of Metadata for an instance (e.g., Hyrum Reserovir) ### <p>
+### Levels of Metadata for an instance (e.g., Hyrum Reserovir) <p>
 1. common accross objects: Project, scenarion, user, and network names that this instance belongs to 
 2. Comoon across instances: Object name, color, shape, description, and attribute names 
 3. spesfic for the instance: like logitude, latitide, name, local x, and local y
