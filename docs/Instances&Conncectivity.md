@@ -1,4 +1,4 @@
-Instances
+Instances and connectivity
 =========
 Blue tables in Figure 1 contain the instances of objects that exist in the project, their connectivity, and scenarios that in which they appear. An instance is a specific implementation of an object defined in the project metadata table. For example an instance of the object “Reservoir” is Hyrum reservoir in Utah. A node instance can stand by itself but a link instance references a start and end node. The connectivity between node and links instances represents the spatial topology of networks. The instances are connected to their parent objects through the attribute “ObjectName” in the tables of NodeInstances and LinkInstances. The Node and Link Instances tables contain metadata about instances like name and location. The Networks table contains a collection of node and link instances and their data and metadata. The Scenarios table contains metadata that describe a scenario like its name, description, and time horizon.tes and vice versa. 
 
