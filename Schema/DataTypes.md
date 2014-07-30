@@ -1,5 +1,6 @@
-#### Data Types convention that is used in WaM-DaM physical data model (database)
+### Data Types convention that is used in WaM-DaM physical data model (database)
 =====================
+***I borrowed this conversion from ODM1 and ODM2***
 
 No. |Example representative attributes   | Physical data type
 ----| ------------- | -------------
