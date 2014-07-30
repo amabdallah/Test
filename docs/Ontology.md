@@ -16,14 +16,14 @@ Next steps include following a rigorous and consistent method in developing the 
 
 To conclude, we need an ontology to describe water management data that provides a clear relationship between the controlled vocabularies of water management data in the right context. In this brief document, I explained the motivation for defining a water management ontology and I provided figures that show an example of the water management ontology and mentioned the next steps. Finally your feedback is important so I make sure that the ontology would meet your needs. 
 
- Figure 1: Hierarchy of node objects in the water management domain in WaM-DaM (draft)
-https://github.com/amabdallah/WaMDaM/blob/master/Figures/Fig1.png
+![fig1](https://github.com/amabdallah/WaMDaM/blob/master/Figures/Fig1.png)
+Figure 1: Hierarchy of node objects in the water management domain in WaM-DaM (draft) <p>
  
-https://github.com/amabdallah/WaMDaM/blob/master/Figures/Fig2.jpg 
-Figure 2: Hierarchy of link objects in the water management domain in WaM-DaM (draft)
+![fig2]https://github.com/amabdallah/WaMDaM/blob/master/Figures/Fig2.jpg 
+Figure 2: Hierarchy of link objects in the water management domain in WaM-DaM (draft)<p>
 
-https://github.com/amabdallah/WaMDaM/blob/master/Figures/Fig3.png
-Figure 3: A snapshot of the hierarchy of attributes for a reservoir (draft)
+![fig3] https://github.com/amabdallah/WaMDaM/blob/master/Figures/Fig3.png
+Figure 3: A snapshot of the hierarchy of attributes for a reservoir (draft) <p>
  
 Appendix
 Prior work in Ontology for the domain of hydrology
