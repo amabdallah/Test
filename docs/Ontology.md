@@ -19,10 +19,10 @@ To conclude, we need an ontology to describe water management data that provides
 ![fig1](https://github.com/amabdallah/WaMDaM/blob/master/Figures/Fig1.png)
 Figure 1: Hierarchy of node objects in the water management domain in WaM-DaM (draft) <p>
  
-![fig2]https://github.com/amabdallah/WaMDaM/blob/master/Figures/Fig2.jpg 
+![Fig2]https://github.com/amabdallah/WaMDaM/blob/master/Figures/Fig2.jpg 
 Figure 2: Hierarchy of link objects in the water management domain in WaM-DaM (draft)<p>
 
-![fig3] https://github.com/amabdallah/WaMDaM/blob/master/Figures/Fig3.png
+![Fig3] https://github.com/amabdallah/WaMDaM/blob/master/Figures/Fig3.png
 Figure 3: A snapshot of the hierarchy of attributes for a reservoir (draft) <p>
  
 Appendix
