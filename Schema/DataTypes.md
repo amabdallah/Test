@@ -4,10 +4,10 @@ Data Types conventions
 No. |Example representative attributes   | Physical data type
 ----| ------------- | -------------
 1   |DateCreated | Date
-2   |Content Cell  | Content Cell
-3   |Content Cell  | Content Cell
-4   |Content Cell  | Content Cell
-5   |Content Cell  | Content Cell
-6   |Content Cell  | Content Cell
-7   |Content Cell  | Content Cell
-8   |Content Cell  | Content Cell
+2   |Description, definition   | VarChar (500)
+3   |Name, Link, Type  | VarChar (255)
+4   |UserID (Primary keys) | Integer
+5   |Code, color, shape | VarChar (50)
+6   |DataValue, coordinates, length | Float
+7   |IsGeographic? | Bit (5)
+8   |DateTimeUTC  | DateTime
