@@ -1,4 +1,4 @@
-Data Types convention that is used in WaM-DaM physical data model (database)
+#### Data Types convention that is used in WaM-DaM physical data model (database)
 =====================
 
 No. |Example representative attributes   | Physical data type
