@@ -42,3 +42,8 @@ A data value could be collected using a sample accoroding to a method by a sourc
 
 **Method, Source and models**
 Data values in WaM-DaM can come from model simulation results, in this case the user enters exta metadata about the used model. The source of data can be reported through the sources table. The method will be picked in the methods table.   
+
+
+**Simulations/Optimizations**
+Stores metadata about simulation and optimization modeling results. One model can have zero or many simulation or optimization results. If the model parameters are changed then they will be tracked through the scenarios table. However, the same scenario can have multiple simulation results. In this case the results could be differenct because of the uncertinity or stochatic nature of the model.
+
