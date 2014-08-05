@@ -15,10 +15,17 @@ The TimeSeriesMetadata table captures metadata for the whole block of time serie
 ***3. Parameters*** <p>
 The Parameter table stores values of single numeric parameter like an elevation of 45.5 m. 
 
-
 ***4. Seasonal Parameter*** <p>
+a seasonal parameter stores values that have seasonal patterns (e.g., water rights that are 20 acre-feet in winter and 5 acre-feet in summer OR "open gate" at night and close gate at day). The season value can be time series, numeric or text parameter, and binary. The seasonal attribute must have only one unit that applies to all the seasons, it has one data source, and one method. Also A season's data value should only take one formate like Binary or parameter. So if the data value for one season is binary, then the rest of the seasons should be binary too and they cant be numeric or text paramters. This Buissness rule is not enforced in the data model so I will enforce it in the database. The seasonal parameter cannot be a Muti-column formate because it gets tricky. The Multi-column format can be composed of three different attributes which have three different units, sources, and methods. However, the seasonal Parameter takes only one unit and metadata. The data value of the seaosnal Parameter is then stored at the one of the storage tables (time series, binary, fileBased, text, and parameter. 
 
+**Use cases:**
+1.Seasonal parameter attribute= Agriculture water demand
+Season1 name=Summer, Season2 name=Winter, Season3 name=Spring, Season4 name = Fall
+We can assign a start and end date and description for each season
+Each season then gets connected to one of the data storage tables like the ParamerData one. 
 
+2. Seasonal Parameter attribute =Reservoir Pool zones 
+Seaosn 1= inactive, season2= conservation, season3= flood
 ***5. Binary***<p>
 The Binary table stores binary data values (i.e., 0, 1) and reports the meaning of these values. For example, status of gates as open=1 or closed=0.
 
