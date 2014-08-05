@@ -42,6 +42,15 @@ Stores text values with no enforcment. For example, the release rule could be de
 This table could reference attributes at a partcicular node or link instance to other attributes at the same instance or other instances. For example, a reservoir release might be a function of inflow and evapotrasnpitation at the same reservoir. Or a reservoir release can be a function of another reservoir release.
 
 ***Tricky ***
-The seasonal Parameter is the most complex kind of data formate becasue its data can be stored in the other kinds of data formats.For example, a seasonal parameter like Holiday and non-holiday seasons of water demand are simple. They can be stored as numerica parameters values like 20 cfs and 5 cfs. Or the same seasonal parameter data values can be soted in time sereis on an hour time step water demand during each season (holiday and non-holiday). The most complicated seasonal or step wise data format would be stored in a multi-comuns Array. An example would be the Reservoir pool zone elevation durig the months of the year. So the conservation pool "season name" can be the headline of one of the columns in the array. Then "months" could be another headline of the second column. Now the data values for the Months column would be the months of the year as seasons like July and September. The values of the "conseration" season would be the elevation of the pool or the volume of the reservoir.  
+The seasonal Parameter is the most complex kind of data formate becasue its data can be stored in the other kinds of data formats.For example, a seasonal parameter like Holiday and non-holiday seasons of water demand are simple. They can be stored as numerica parameters values like 20 cfs and 5 cfs. Or the same seasonal parameter data values can be soted in time sereis on an hour time step water demand during each season (holiday and non-holiday). The most complicated seasonal or step wise data format would be stored in a multi-comuns Array. An example would be the Reservoir pool zone elevation durig the months of the year. So the conservation pool "season name" can be the headline of one of the columns in the array. Then "months" could be another headline of the second column. Now the data values for the Months column would be the months of the year as seasons like July and September. The values of the "conseration" season would be the elevation of the pool or the volume of the reservoir. The elevation attribute gets its metadata though its foreign key and must be combined with the season name in this case. Summary:
+MultiColumnArray name which is an attribute to a reservoir instance: Pools
+ColumnsHeadline: 1) Months (from seasonsCV), 2) Elevation (reservoir attribute) and Inactive zone (from seasonCV), 3) Elevation and conservation zone, 4) elevation and flood zone.
+The values would be like this:
 
+Reservoir Pools
+Months | Inactive|Conservation|Flood
+       | Elevation| Elevation|Elevation
+------------ | -------------|----------
+Content from cell 1 | Content from cell 2
+Content in the first column | Content in the second column
 
