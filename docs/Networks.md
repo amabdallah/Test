@@ -13,6 +13,10 @@ An instance is a specific implementation of an object defined in the project met
 A Scenario tracks the changes in the network, connectivity and the data and metadata from a state to another one like existing case to climate change case. Also, adding the scenario as another attribute to the AttributeMatadata allows to reference multiple scenarios to attributes and thier data values. Thus, we dont need to duplicate the similar data among scenarios.
 
 
+#Do I need to add a bridge table between scenarios and networks to map out the many to many relations. I will add more complexity but whats the real benift and application to this addition?  
+
+
+
 ***Scenarios Table:***<p>
 This table captures metadata like the scenario name, time horizon, description, and the reference to the network ID that applies to. 
 
