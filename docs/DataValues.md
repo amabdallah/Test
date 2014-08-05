@@ -47,17 +47,10 @@ MultiColumnArray name which is an attribute to a reservoir instance: Pools
 ColumnsHeadline: 1) Months (from seasonsCV), 2) Elevation (reservoir attribute) and Inactive zone (from seasonCV), 3) Elevation and conservation zone, 4) elevation and flood zone.
 The values would be like this:
 
-Reservoir Pools
-
-Months | Inactive/Elevation|Conservation/
------------- | -------------|-------------
-Content from cell 1 | Content from cell 2
-Content in the first column | Content in the second column
-
-
+Reservoir Pools (MultiColum attribute)
 
 Months       | Inactive/Elevation  | Conservation/Elevation|Flood/Elevation
 ------------ | -------------| -------------| -------------
- June | 10   |50|80
-July  | 10   |60|80
-August|10    |70|80
+June, Numeric value =Null | 10, season name=Null   |50, season name=Null|80, season name=Null
+July,Numeric value =Null  | 10, season name=Null   |60, season name=Null|80, season name=Null
+August,Numeric value =Null|10, season name=Null    |70, season name=Null|80, season name=Null
