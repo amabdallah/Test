@@ -56,8 +56,8 @@ Content in the first column | Content in the second column
 
 
 
-Months       | Inactive/Elevation  | Conservation/Elevation|Elevation|Flood/Elevation
------------- | -------------| -------------|------------------
- June | 10   |50|80
-July  | 10   |60|90
-August|10    |70|80
+Months       | Inactive/Elevation  | Conservation/Elevation|Elevation
+------------ | -------------| -------------
+ June | 10   |50
+July  | 10   |60
+August|10    |70
