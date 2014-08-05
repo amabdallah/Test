@@ -48,8 +48,7 @@ ColumnsHeadline: 1) Months (from seasonsCV), 2) Elevation (reservoir attribute) 
 The values would be like this:
 
 Reservoir Pools
-Months | Inactive|Conservation|Flood
-       | Elevation| Elevation|Elevation
+Months | InactiveElevation/|Conservation/Elevation|Flood/Elevation
 ------------ | -------------|----------
 Content from cell 1 | Content from cell 2
 Content in the first column | Content in the second column
