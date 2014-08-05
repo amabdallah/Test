@@ -56,7 +56,7 @@ Content in the first column | Content in the second column
 
 
 
-Months       | Inactive/Elevation  | Conservation/Elevation|Elevation
+Months       | Inactive/Elevation  | Conservation/Elevation
 ------------ | -------------| -------------
  June | 10   |50
 July  | 10   |60
