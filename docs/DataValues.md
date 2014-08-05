@@ -49,7 +49,7 @@ The values would be like this:
 
 Reservoir Pools (MultiColum attribute)
 
-Months       | Inactive/Elevation(refere to metadataID)  | Conservation/Elevation (refere to metadataID)|Flood/Elevation(refere to metadataID)
+Months       | Inactive/Elevation (refere to metadataID to see unit)  | Conservation/Elevation (refere to metadataID to see unit)|Flood/Elevation(refere to metadataID to see unit)
 ------------ | -------------| -------------| -------------
 June, Numeric value =Null | 10, season name=Null   |50, season name=Null|80, season name=Null
 July,Numeric value =Null  | 10, season name=Null   |60, season name=Null|80, season name=Null
