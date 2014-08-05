@@ -49,14 +49,15 @@ The values would be like this:
 
 Reservoir Pools
 
-Months | Inactive/Elevation|Conservation/Elevation|Flood/Elevation
+Months | Inactive/Elevation|Conservation/
 ------------ | -------------|-------------
 Content from cell 1 | Content from cell 2
 Content in the first column | Content in the second column
 
 
 
-Months| Inactive/Elevation
------------- | -------------
-Content from cell 1 | Content from cell 2
-Content in the first column | Content in the second column
+Months       | Inactive/Elevation  | Conservation/Elevation|Elevation|Flood/Elevation
+------------ | -------------| -------------|------------------
+ June | 10   |50|80
+July  | 10   |60|90
+August|10    |70|80
