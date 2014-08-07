@@ -34,8 +34,11 @@ This table maps out the many to many relationship between a scenarios and attriu
 
 
 ***Importance of maping data through scenarios***<p>
-1. Referenceing multiple scenarios to the similar data. Thus avoid redunduncy and save space <p>
-2. A user could run a query to find out the data differences between two scenarios. For example, what is the difference between the base case and climate change scenarios?<p>
+ A Scenario represents the topological (network configuration of node and link instances) and the data and metadata changes in a network from a state to another state like existing case to climate change case. The Scenarios table contains metadata that describe a scenario like its name, description, and time horizon. A scenario addition in WaM-DaM helps:
+
+1. References multiple scenarios to similar data. Thus avoid redunduncy and save space. For example, a time series data if inflow to a reservoir could be the same in two scenarios. Then we store one time sereis and then reference it to two senarios instead of storing two time sereis data for two scenarios <p>
+
+2. A user could run a query to find out the data differences between two scenarios. The differences could be in topology (network configuration of instances), data values for attributes, and metadata (e.g., source and method)?  For example, what is the difference between the base case and climate change scenarios?  <p>
 The key table that maps out these similraties and differences is the ScenariosNodeORLinkBridge table. 
 
 
