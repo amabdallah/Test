@@ -6,7 +6,9 @@ An instance is a specific implementation of an object defined in the project met
 Node: Vertix, Junction,	Node, Station
 
 Link: edge, relationsship, connection, transmission link, Channel	Reach 	Creek	tributary	fork	branch	Element
-   
+
+***Homogenous vs heterogeneous instances in their attributes*** <p>
+Should all the instances be identical of their attributes? or should every have its own collectiion of attributes?
 
 
 ***Connectivity rules :***<p>
