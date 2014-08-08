@@ -9,6 +9,11 @@ There could be another way to capture the obect name within the Instances table 
 Also, by defining an object with its attributes then all the instances of that spesific object will inhert those attibutes and therefore the instance will be similar and homogenous. In ODM1, everysite could be different than another site by having different set of variables that are measured at each site. However, WaM-DaM wants to enforce homognity among "sites" that are similar and share a set of common attributes. For example, an abject called reservoir shares a set of attributes that are common among all reservoirs (e.g., capacity, elevation, and purpose). The enforcement of homoginiety saves the user time by defining an object once and then creating "copies" instance of it.
 
 
+***Legit problem***
+What if the user wants to create two different kinds of reservoirs where each of them has different set of attributes though both of them still share some common attributes? Both of them are reservoirs but they're different. For example, a reservoir that has hydropower generaton will have hydropower attributes compared to another reservoir that donest have hydropwer. <p> In this case there are two option:<p>
+A) Use one generic reserovir object that has all the possible attributes that all kinds of reservoirs have. However, if a reservoir instance has and uses the basic attributes in the object, then most of the attributes will have "Null" values which is not preffered in databases and indicates poor design. Also, by generalizing all kinds of reserovirs into one object, then we loose the opportunity to query our database. For example, if we have different kinds of reservoirs, then we can run a query agaisnt the object type to find out all the reservoirs of a type of "Hydropower".
+
+
 #### Node Objects ####
 Node objects represnet a generic abstract of a node like reservoir. A node instance inherits all the properties of a node object.   
 
