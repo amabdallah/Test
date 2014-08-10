@@ -29,6 +29,12 @@ Node objects that are similar and belong to a large group of objects can be orga
 
 One of the solutions is to add an attribute in the Object Table called like "Object flavoir". This flavoir attribute is like a metadta that gives a second title to the reserovir that comunicates its main difference than the other flavoir of reservoir. The question now is should we enforce controlled vocabulary over the "flavour" attribute? It gets tricky where we dont want to surround the user with so much controll but at the same we need to enforce semantic homogneity.
 
+
+***Can an object belong to many projects?***
+Currently, NO. in general, WaM-DaM will come with pre-defined objects that covers the breoad specrtum of water management objects. 
+Also it is expected that a user or a group of users will use one project for their entire data. So there would be no need to share many objects in this case. However, the need comes when two different users want to share an object between their two projects. <p>
+In this case, one of the users can import the object from the other project to his own project but there will be no connection between the two projects or objects. If one of the users want to modify the object that he imported then, the other user wouldnot be affected. Anyways, for simplicity at the first version of WaM-DaM, I will only suppoprt the existing case where an object cannt be shared with multiple objects.
+
 #### Link Objects ####
 
 
