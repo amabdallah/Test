@@ -27,7 +27,7 @@ Node objects that are similar and belong to a large group of objects can be orga
 
 ***Can we have two objects with the same exact name (e.g., Reservoir)? YES. Now the two objects of reservoirs would either belong to the same category or ontology and they would have the same set of attributes. OR they would be different in the ontology tree and the sets of attributes. For example, there could be a reservoir that generates hydropower while the other kind of reservoir doesnt generate hydropower. So then it would be confusing to have two objects that have the same name but they are different:(
 
-One of the solutions is to add an attribute in the Object Table called like "Object flavoir". This flavoir attribute is like a metadta that gives a second title to the reserovir that comunicates its main difference than the other flavoir of reservoir. 
+One of the solutions is to add an attribute in the Object Table called like "Object flavoir". This flavoir attribute is like a metadta that gives a second title to the reserovir that comunicates its main difference than the other flavoir of reservoir. The question now is should we enforce controlled vocabulary over the "flavour" attribute? It gets tricky where we dont want to surround the user with so much controll but at the same we need to enforce semantic homogneity.
 
 #### Link Objects ####
 
