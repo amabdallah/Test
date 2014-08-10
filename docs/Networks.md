@@ -12,6 +12,8 @@ Can instances can share the same data values for attributes with other instances
 
 * Networks can belong to other networks in a hierarchical order. The recursive relation in the network table organizes this order. For example, the Little Bear River network is part of or belongs to the Lower Bear River. Also ther Lower Bear River network is part of or belongs to the Bear River Network.
 * 
+Can two node instances then have the exact same name? YES what matters is the primary key number in the NodeInstances table which will be different for each NodInstance. 
+* 
 
 ***Important***
 A network contains the union of all the node and link instances for all scenarios. For example, if a scenario adds a new node, then this node gets refrenced in the network. If a scenario deletes a node or link, its still stay in the network but the new scenario doesnt reference the node anymore. So to query the nodes and links in a network, the user needs to spesify the scenario.
