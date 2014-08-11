@@ -51,5 +51,6 @@ Stores metadata about simulation and optimization modeling results. One model ca
 
 1. How would I make the user go to a bridge table which ecesntialy mean they go to the other side of the bridge table and populate it with data. For example, the peoples table has basic data. But how do I make the user to populate the Orgnizations table which goes through the affiliation bridge tabel???
 
-2. In the Time Sereis Metadata table, What would be the spatil reference for the Long. and Lat. coordinates of the site? Should I connect this table with the Spatial referene table???
+2. In the Time Sereis Metadata table, What would be the spatil reference for the Long. and Lat. coordinates of the site? Should I connect this table with the Spatial referene table??? I will connect them for now:) <p>
+ oooh The coordinats here could be different than the onces of the node instance becasue the monitoring site could be located away from the center of the instance. For example, the Long. and Lat. coordinates could be for the center of the reservoir while the monitoring site could be miles away at the mouth or outlet of the reserovir. 
 
