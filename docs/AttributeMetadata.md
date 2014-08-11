@@ -37,6 +37,20 @@ Once attribute might have multiple values that come from different sources and v
 **Method and Source**
 An attribute like a reservoir watershed area can be measured using a method described and specified by an organization like the US Army Corps of Engineers. However, the source for that data value might come from a different organization like Utah State University. So Utah State University estimated a reservoir watershed area based on the method by the US Army Corps of Engineers. A source reports what or where and the methods reports how!
 
+**MethodTypes** Credit: methods 1, 2, 4, and 5 are borwoed from ODM2
+1. Field procedure: A Field procedure Method may be used to create an observation of a Variable using a field instrument <p>
+2. Model simulation: A Model simulation Method may be used to generate Results by executing a simulation or model <p>
+3. Model optimization: A Model optimization Method may be used to generate Results by executing an optimization model <p>
+4. Derivation: A Derivation Method may be used to generate Result(s) that are directly derived from another Result or set of Results <p>
+5. Sample: A Sample Method may be used to generate Result(s) from analyzing a sample in a laboratory <p>
+6. Expert opinion: An expert opinion might be used to decide an operation of a water system like a release rule <p>
+7. Manufacture report: a Manufacture report might list a property value of a water system unit like turbine efficiency <p>
+8. Engineering
+9. Market values for cost 
+
+
+
+
 **Samples, Methods, and Sources**
 A data value could be collected using a sample accoroding to a method by a source who collects the sample
 
