@@ -25,4 +25,8 @@ These rules maintain the integrity of the network connectivity <p>
 ArcGIS uses a connectivity matrix to define which node is connected to another one
 
 
+**Duplicate link instances**
+Can we have two almost idnetical link instances with the same name? YES but they will have diffent identity keys. For example, a river may be segmented due to withdrawal and contributing tributaries to three segements where the three of them have common attributes like the river name, the basin name it belongs to, spatial reference, link code, and political jursdication. However, other attributes will be different between the the river segements (link instances) like start and end nodes, flowrate, and water quality. So we can create multiple link instances with the same name for the same "object" and then we can map out the similar attributes for both instances where the different attributes would be maped out sepratley.  
+
+
 ![NodeLinkConnectDemo](https://github.com/amabdallah/WaMDaM/blob/master/Figures/NodeLinkConnectDemo.jpg)
