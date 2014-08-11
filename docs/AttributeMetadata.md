@@ -45,8 +45,8 @@ An attribute like a reservoir watershed area can be measured using a method desc
 5. Sample: A Sample Method may be used to generate Result(s) from analyzing a sample in a laboratory <p>
 6. Expert opinion: An expert opinion might be used to decide an operation of a water system like a release rule <p>
 7. Manufacture report: a Manufacture report might list a property value of a water system unit like turbine efficiency <p>
-8. Engineering
-9. Market values for cost 
+8. Engineering <p>
+9. Market values for cost <p>
 
 
 
