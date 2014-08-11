@@ -47,3 +47,6 @@ Data values in WaM-DaM can come from model simulation results, in this case the 
 **Simulations/Optimizations**
 Stores metadata about simulation and optimization modeling results. One model can have zero or many simulation or optimization results. If the model parameters are changed then they will be tracked through the scenarios table. However, the same scenario can have multiple simulation results. In this case the results could be differenct because of the uncertinity or stochatic nature of the model.
 
+***QUESTIONS***
+
+How would I make the user go to a bridge table which ecesntialy mean they go to the other side of the bridge table and populate it with data. For example, the peoples table has basic data. But how do I make the user to populate the Orgnizations table which goes through the affiliation bridge tabel???
