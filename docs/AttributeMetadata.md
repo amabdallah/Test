@@ -41,7 +41,7 @@ How could I keep track of all the sources that relate to data. for example, if y
 Sure, there is a brigde tabels tha takes care of having multiple source for the same attrritbute with a source order attribute to keep track who owned the data first and then second.
 
 
-**MethodTypes** Credit: methods 1, 2, 4, and 5 are borwoed from ODM2
+**MethodTypes** Credit: methods 1, 2, 4, and 5 are borwoed from ODM1.0 But **MEthodType is called ValueType in ODM1**
 1. Field procedure: A Field procedure Method may be used to create an observation of a Variable using a field instrument <p>
 2. Model simulation: A Model simulation Method may be used to generate Results by executing a simulation or model <p>
 3. Model optimization: A Model optimization Method may be used to generate Results by executing an optimization model <p>
