@@ -35,7 +35,11 @@ Once attribute might have multiple values that come from different sources and v
 
 
 **Method and Source**
-An attribute like a reservoir watershed area can be measured using a method described and specified by an organization like the US Army Corps of Engineers. However, the source for that data value might come from a different organization like Utah State University. So Utah State University estimated a reservoir watershed area based on the method by the US Army Corps of Engineers. A source reports what or where and the methods reports how!
+An attribute like a reservoir watershed area can be measured using a method described and specified by an organization like the US Army Corps of Engineers. However, the source for that data value might come from a different organization like Utah State University. So Utah State University estimated a reservoir watershed area based on the method by the US Army Corps of Engineers. A source reports what or where and the methods reports how! <p>
+
+How could I keep track of all the sources that relate to data. for example, if you download data from CHUASI that was collected by USU. How do I track both sources in WaM-DaM? <p>
+Sure, there is a brigde tabels tha takes care of having multiple source for the same attrritbute with a source order attribute to keep track who owned the data first and then second.
+
 
 **MethodTypes** Credit: methods 1, 2, 4, and 5 are borwoed from ODM2
 1. Field procedure: A Field procedure Method may be used to create an observation of a Variable using a field instrument <p>
