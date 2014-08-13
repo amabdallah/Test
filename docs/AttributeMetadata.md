@@ -73,3 +73,5 @@ Stores metadata about simulation and optimization modeling results. One model ca
  oooh The coordinats here could be different than the onces of the node instance becasue the monitoring site could be located away from the center of the instance. For example, the Long. and Lat. coordinates could be for the center of the reservoir while the monitoring site could be miles away at the mouth or outlet of the reserovir. <p>
 
 3. How could I keep track of the input/output parameters of a model? For example, I have a lot of data inside a model, most of the data are input data and some of it is output data. If I want to import all of the data, then how could I distingiush between the two in the Simultion/Optimization Table or the Models table? Well, I added an attribute in the simulation/optimoization table that takes a boolian phiscal value which is Input or output parameter.
+
+4. How to deal with attributes that are common across instances? for example, a river name can be common across all the reservoir instances that are constructed along it.
