@@ -25,13 +25,19 @@ Table 1: Unique attributes from different data sources
 
 5.	Organize data in a consistent way for all data sources. For example, the reservoir purposes are organized in four different ways in the five sources of data as shown in the Table 2 below. 
 
-Table 2: The different methods of organizing reservoir purpose in existing datasets 
-Source 	Attributes that organize reservoir purpose 
-Global Dams Dataset	USE_IRRI, USE_ELEC, USE_SUPP, USE_FCON, USE_RECR, USE_NAVI, USE_FISH, USE_PCON, USE_LIVE, USE_OTHR, MAIN_USE
-Global Lakes Dataset	USE_1 (main), USE_2 (secondary), USE_3 (third)
-US National Inventory of Dams Dataset (NID)	Primary_Purpose, All_Purposes
-US National Atlas of Dams	PURPOSES (coded purposes ordered in priority)
-ICOLD Dams Dataset	Purpose(s) of reservoir (coded purposes ordered in priority)
+**Table 2: The different methods of organizing reservoir purpose in existing datasets**
+
+Source |	Attributes that organize reservoir purpose 
+-------| ------------------------------------------------------
+Global Dams Dataset|	USE_IRRI, USE_ELEC, USE_SUPP, USE_FCON, USE_RECR, USE_NAVI, USE_FISH, USE_PCON, USE_LIVE, USE_OTHR, MAIN_USE
+
+Global Lakes Dataset|	USE_1 (main), USE_2 (secondary), USE_3 (third)
+
+US National Inventory of Dams Dataset (NID)|	Primary_Purpose, All_Purposes
+
+US National Atlas of Dams|	PURPOSES (coded purposes ordered in priority)
+
+ICOLD Dams Dataset|	Purpose(s) of reservoir (coded purposes ordered in priority)
 
 
 6.	Manage network data, connectivity, and its metadata for two regional watersheds: Parleys Canyon and Lower Bear River networks.
