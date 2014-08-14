@@ -29,15 +29,15 @@ Table 1: Unique attributes from different data sources
 
 Source |	Attributes that organize reservoir purpose 
 -------| ------------------------------------------------------
-Global Dams Dataset|	USE_IRRI, USE_ELEC, USE_SUPP, USE_FCON, USE_RECR, USE_NAVI, USE_FISH, USE_PCON, USE_LIVE, USE_OTHR, MAIN_USE
+Global Dams Dataset| USE_IRRI, USE_ELEC, USE_SUPP, USE_FCON, USE_RECR, USE_NAVI, USE_FISH, USE_PCON, USE_LIVE, USE_OTHR, MAIN_USE
 
-Global Lakes Dataset|	USE_1 (main), USE_2 (secondary), USE_3 (third)
+Global Lakes Dataset| USE_1 (main), USE_2 (secondary), USE_3 (third)
 
-US National Inventory of Dams Dataset (NID)|	Primary_Purpose, All_Purposes
+US National Inventory of Dams Dataset (NID)| Primary_Purpose, All_Purposes
 
-US National Atlas of Dams|	PURPOSES (coded purposes ordered in priority)
+US National Atlas of Dams| PURPOSES (coded purposes ordered in priority)
 
-ICOLD Dams Dataset|	Purpose(s) of reservoir (coded purposes ordered in priority)
+ICOLD Dams Dataset| Purpose(s) of reservoir (coded purposes ordered in priority)
 
 
 6.	Manage network data, connectivity, and its metadata for two regional watersheds: Parleys Canyon and Lower Bear River networks.
