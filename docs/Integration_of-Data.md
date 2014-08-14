@@ -9,7 +9,7 @@ Table 1: Unique attributes from different data sources
 
 	Unique attributes |data	Source
 	------------------| ----------
-1	Dam Hazard, main and sub basins	Global Dams
+1	Dam Hazard, main and sub basins|	Global Dams
 2	hydrologic unit code|	National Atlas of Lakes 
 3	Maximum Discharge (spill way), Spillway Type, Spillway Width, Outlet Gates, |	US National Inventory of dams 
 4	Resettlement, Irrigated areas, Electric installed capacity, Mean annual energy, Volume flood protection|	ICOLD Dams Dataset
