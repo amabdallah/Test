@@ -7,7 +7,7 @@ Table 1 below lists the unique attributes that each dataset has and doesn’t ex
 
 Table 1: Unique attributes from different data sources 
 
-	|Unique attributes |data	Source
+	|Unique attributes |Data Source
 --------|------------------| ----------
 1|	Dam Hazard, main and sub basins|	Global Dams
 2|	hydrologic unit code|	National Atlas of Lakes 
