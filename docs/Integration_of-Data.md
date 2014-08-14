@@ -7,14 +7,15 @@ Table 1 below lists the unique attributes that each dataset has and doesn’t ex
 
 Table 1: Unique attributes from different data sources 
 
-	Unique attributes /data	Source
+	Unique |attributes /data	Source
+	-------| ------------------------------------------------------
 1	Dam Hazard, main and sub basins	Global Dams
-2	hydrologic unit code	National Atlas of Lakes 
-3	Maximum Discharge (spill way), Spillway Type, Spillway Width, Outlet Gates, 	US National Inventory of dams 
-4	Resettlement, Irrigated areas, Electric installed capacity, Mean annual energy, Volume flood protection	ICOLD Dams Dataset
-5	Network connectivity, reservoir operation rules, supply and demand data for a the Lower Bear River	Lower Bear River WEPA model
-6	Network connectivity, reservoir operation rules, supply and demand data for Parleys Canyon	GoldSim Parleys Canyon model
-7	Inflow, release, weather data	Time series data (CUAHSI)
+2	hydrologic unit code|	National Atlas of Lakes 
+3	Maximum Discharge (spill way), Spillway Type, Spillway Width, Outlet Gates, |	US National Inventory of dams 
+4	Resettlement, Irrigated areas, Electric installed capacity, Mean annual energy, Volume flood protection|	ICOLD Dams Dataset
+5	Network connectivity, reservoir operation rules, supply and demand data for a the Lower Bear River|	Lower Bear River WEPA model
+6	Network connectivity, reservoir operation rules, supply and demand data for Parleys Canyon|	GoldSim Parleys Canyon model
+7	Inflow, release, weather data|	Time series data (CUAHSI)
 
 2.	Report descriptive metadata (source, method, units, spatial reference) so it’s easier and possible to interpret the data values correctly. Existing data sources use different coded attributes with no clear meaning. The user has to look up a PDF file or a different webpage to understand what the coded attribute mean and what are the units and methods that describe it.
 
@@ -32,9 +33,7 @@ Source |	Attributes that organize reservoir purpose
 Global Dams Dataset| USE_IRRI, USE_ELEC, USE_SUPP, USE_FCON, USE_RECR, USE_NAVI, USE_FISH, USE_PCON, USE_LIVE, USE_OTHR, MAIN_USE
 Global Lakes Dataset| USE_1 (main), USE_2 (secondary), USE_3 (third)
 US National Inventory of Dams Dataset (NID)| Primary_Purpose, All_Purposes
-
 US National Atlas of Dams| PURPOSES (coded purposes ordered in priority)
-
 ICOLD Dams Dataset| Purpose(s) of reservoir (coded purposes ordered in priority)
 
 
