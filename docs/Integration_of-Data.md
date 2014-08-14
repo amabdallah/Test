@@ -7,8 +7,8 @@ Table 1 below lists the unique attributes that each dataset has and doesn’t ex
 
 Table 1: Unique attributes from different data sources 
 
-	Unique |attributes /data	Source
-	-------| ------------------------------------------------------
+	Unique attributes |data	Source
+	------------------| ----------
 1	Dam Hazard, main and sub basins	Global Dams
 2	hydrologic unit code|	National Atlas of Lakes 
 3	Maximum Discharge (spill way), Spillway Type, Spillway Width, Outlet Gates, |	US National Inventory of dams 
