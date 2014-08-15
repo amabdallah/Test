@@ -58,19 +58,38 @@ I need to workout examples of networks merging with each other <p>
 Add this key question. What are the MasterNetworks that WaM-DaM has and what are their types?<p>
 Delete the political Jursdication tables <p>
 Consider deleting the recursive relation in the networks. Maybe I should keep it. <p>
+What is uniqe about networks other than their name and type? maybe purpose?
 
 
-**MasterNetworks types:**<p>
-Drinking water distribution networks 
-Wastewater distribution networks 
-river networks 
-stromwater netwokrs 
-regional water conveyance networks 
-Water trade networks 
-Water and Energy networks 
-Water Planning networks 
-Hydrologic networks 
-Ecological networks 
+**Master Netowrks purpsoes** <p>
+Simulation (what if?)
+Optimization (how?)
+allocaton (where?)
+evaluation (??)
+
+
+
+
+*Types MasterNetworks:**<p> 
+Question: can a network has many types? Obvioulsy a type can apply to many networks. 
+
+Drinking water distribution networks <p>
+Wastewater distribution networks <p>
+river networks <p>
+stromwater netwokrs <p>
+regional water conveyance networks <p>
+Secondary water distribution system <p>
+Water trade networks <p>
+Water and Energy networks <p>
+Water Planning networks <p>
+Hydrologic networks <p>
+Ecological networks <p>
+Aggreculture water distribution neworks <p>
+Economic netowrks <p>
+Hydro-economic networks <p>
+Engineered <p>
+Natural <p>
+
 
 
 
