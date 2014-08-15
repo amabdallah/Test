@@ -50,6 +50,28 @@ A scenario addition in WaM-DaM helps:
 The key table that maps out these similraties and differences is the ScenariosNodeORLinkBridge table. 
 
 
+**Need to consider**
+I need to allows one instance to belong to many networks. Give a demonestration example where we want to merge two networks together using one or many connections (i., links).
+
+I need to think about deleting the Project and connecting the user to the Instance Table.<p>
+I need to workout examples of networks merging with each other <p>
+Add this key question. What are the MasterNetworks that WaM-DaM has and what are their types?<p>
+Delete the political Jursdication tables <p>
+Consider deleting the recursive relation in the networks. Maybe I should keep it. <p>
+
+
+**MasterNetworks types:**<p>
+Drinking water distribution networks 
+Wastewater distribution networks 
+river networks 
+stromwater netwokrs 
+regional water conveyance networks 
+Water trade networks 
+Water and Energy networks 
+Water Planning networks 
+Hydrologic networks 
+Ecological networks 
+
 
 
 
