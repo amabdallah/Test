@@ -92,6 +92,7 @@ Natural <p>
 
 
 **Question**<p>
-How can I keep track of the source of the instance, not the attribute only? because it has to do with one instance coming from multiple sources where each source has a different latitide and longitude???
+How can I keep track of the source of the instance, not the attribute only? because it has to do with one instance coming from multiple sources where each source has a different latitide and longitude??? <p>
+Well, you always can add an attribute called "Instance Source" and then give it a parameter text data value. Onother way is to link the sources table to the instance table. But the challange here is that one instance can come from multiple sources. Then I need to connect the instance to the sources bridge table OR create a new bridge table for instances sources. hummm not sure! the easiest way is to add another attribute. BUT giveing the source name in the parameter table might not be enough! for example saying that this instance came from the Army Corps of Engineers dataset might not be enogh. so I need to mention the attributes of the source like in the Sources table. 
 
 
